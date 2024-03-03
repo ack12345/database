@@ -12,7 +12,7 @@ docker start mssql
 ## データベースの作成
 1. Containerにアタッチ
 ```
-docker exec -it sql1 "bash"
+docker exec -it mssql "bash"
 ```
 2. データベースの作成
 ```
